@@ -62,4 +62,24 @@ Crie um arquivo CSS externo chamado estilo.css. para estilizar a página HTML da
  - Estilize o formulário para melhorar a apresentação dos campos e do botão de envio.
 
 Link no github classroom: https://classroom.github.com/a/-r6jq7_u
+Entrega: 16/09/2024 até 16h
 
+2. [GRUPO] Construir páginas para cadastro de usuários, convênios, unidades, especialidades, pacientes e atendimento de forma semelhante à página de cadastro de profissionais, e baseado na [documentação do SGCM](https://github.com/webacademyufac/sgcmdocs).
+    - Página de Usuários (Time 1: Valmir, Wanderson, Ismael, Wesley )
+    - Página de Convênios (Time 2:Juan, Gleice, Douglas, Willian)
+    - Página de Unidades (Time 3:João Vitor, Marcos Manuares, Isaque)
+    - Página de Especialidades (Time 4:Gabriel, Kleriston, Esther)
+    - Página de Pacientes (Time 5: Kelvin, Luis Henrique, Hayssa, Samuel Caldeira)
+    - Página de Atendimentos (Time 6: Mateus, Rafael, John, Brenndo)
+
+    - Dados no formato JSON para serem usados nas páginas:
+
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/usuarios>
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/atendimentos>
+        - Convênios: <https://my-json-server.typicode.com/juniorlimeiras/json/convenios>
+        - Unidades: <https://my-json-server.typicode.com/juniorlimeiras/json/unidades>
+        - Especialidades: <https://my-json-server.typicode.com/juniorlimeiras/json/especialidades>
+        - Pacientes: <https://my-json-server.typicode.com/juniorlimeiras/json/pacientes>
+
+Link no github classroom: https://classroom.github.com/a/oZrF8QjE
+Entrega: 18/09/2024 até 16h
