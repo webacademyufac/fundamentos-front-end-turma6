@@ -1,0 +1,123 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+div#logo_header {
+    background: linear-gradient(#003366, #006699);
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+div#logo_header p {
+    /* margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 0;*/
+    margin: 5px;
+    font-size: 2em;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #383838;
+}
+
+nav ul,
+nav ul a {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin: auto;
+}
+
+nav ul a:hover {
+    color: #383838;
+    background-color: #CCCCCC;
+}
+
+/* Form */
+
+form.form_profissional {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: fit-content;
+    gap: 5px;
+    line-height: 2em;
+    padding: 10px;
+}
+
+/* Tabela */
+
+table thead,
+table tfoot {
+    background-color: #003366;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #4771a0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #639d96;
+}
+
+table tr td,
+table thead th {
+    padding: 0.5em;
+}
+
+table tbody tr:hover {
+    background-color: #CCCCCC;
+}
+
+/* Links e Botões */
+a.botao_verde,
+input[type="submit"] {
+    background-color: #2c832d;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.botao_verde:hover,
+input[type="submit"]:hover {
+    background-color: #174418;
+}
+
+a.botao_vermelho,
+input[type="button"] {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.botao_vermelho:hover,
+input[type="button"]:hover {
+    background-color: rgb(173, 0, 0);
+}
+
+/* Rodapé */
+
+footer,
+footer a {
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+}

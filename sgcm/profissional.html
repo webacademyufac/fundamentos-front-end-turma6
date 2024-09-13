@@ -8,8 +8,10 @@
 
 <body>
     <header>
-        <img src="/sgcm/imagens/logo_azul(64).png" alt="">
-        <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+        <div id="logo_header">
+            <img src="/sgcm/imagens/logo_azul(64).png" alt="">
+            <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -37,19 +39,15 @@
         </ul>
     </nav>
     <main>
-        <form>
+        <form class="form_profissional">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome">
-            <br>
             <label for="registroConselho">Registro do Conselho:</label>
             <input type="text" name="registroConselho" id="registroConselho">
-            <br>
             <label for="telefone">Telefone:</label>
             <input type="text" name="telefone" id="telefone">
-            <br>
             <label for="email">E-mail:</label>
             <input type="text" name="email" id="email">
-            <br>
             <!-- Unidade e Especialidade -->
             <label for="unidade">Unidade:</label>
             <select name="unidade" id="unidade">
@@ -58,7 +56,6 @@
                 <option value="2">Laboratório</option>
                 <option value="3">Clínica de Terapias</option>
             </select>
-            <br>
             <label for="especialidade">Especialidade:</label>
             <select name="especialidade" id="especialidade">
                 <option value="">Escolha a Especialidade</option>
@@ -66,11 +63,10 @@
                 <option value="2">Oftalmologista</option>
                 <option value="3">Otorrinolaringologista</option>
             </select>
-            <br>
             <input type="submit" value="Enviar">
             <input type="button" value="Cancelar">
         </form>
-        <table border="1">
+        <table>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -94,7 +90,9 @@
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao_verde" href="javascript:void(0)">Editar</a> <a class="botao_vermelho"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -104,7 +102,9 @@
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao_verde" href="javascript:void(0)">Editar</a> <a class="botao_vermelho"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -114,7 +114,9 @@
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao_verde" href="javascript:void(0)">Editar</a> <a class="botao_vermelho"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -124,7 +126,9 @@
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao_verde" href="javascript:void(0)">Editar</a> <a class="botao_vermelho"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -134,7 +138,9 @@
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao_verde" href="javascript:void(0)">Editar</a> <a class="botao_vermelho"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
             </tbody>
             <tfoot>
