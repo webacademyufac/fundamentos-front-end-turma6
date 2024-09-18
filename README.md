@@ -82,4 +82,10 @@ Entrega: 16/09/2024 até 16h
         - Pacientes: <https://my-json-server.typicode.com/juniorlimeiras/json/pacientes>
 
 Link no github classroom: https://classroom.github.com/a/oZrF8QjE
-Entrega: 18/09/2024 até 16h
+Entrega: 20/09/2024 até 18h
+
+3. [DUPLA] a) Alterar o rodapé da tabela que mostra o total de profissionais para que seja atualizado conforme a quantidade de profissionais. A atualização deve considerar todos os registros.
+b) Implementar a funcionalidade do botão editar para a página de profissionais. Quando o botão for acionado o formulário deve ser apresentado permitindo a edição do profissional que foi escolhido na tabela. 
+
+Link no github classroom: https://classroom.github.com/a/t_fUPjjA
+Entrega: 20/09/2024 até 18h
