@@ -55,6 +55,10 @@ form.form_profissional {
     padding: 10px;
 }
 
+.inativo {
+    display: none;
+}
+
 /* Tabela */
 
 table thead,
@@ -111,6 +115,10 @@ input[type="button"] {
 a.botao_vermelho:hover,
 input[type="button"]:hover {
     background-color: rgb(173, 0, 0);
+}
+
+#add {
+    margin: 10px;
 }
 
 /* Rodapé */

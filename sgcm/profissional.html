@@ -42,33 +42,38 @@
         </ul>
     </nav>
     <main>
-        <form action="" class="form_profissional">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
-            <label for="registroConselho">Registro do Conselho:</label>
-            <input type="text" name="registroConselho" id="registroConselho">
-            <label for="telefone">Telefone:</label>
-            <input type="text" name="telefone" id="telefone">
-            <label for="email">E-mail:</label>
-            <input type="text" name="email" id="email">
-            <!-- Unidade e Especialidade -->
-            <label for="unidade">Unidade:</label>
-            <select name="unidade" id="unidade">
-                <option value="">Escolha a Unidade</option>
-                <option value="1">Pronto Atendimento</option>
-                <option value="2">Laboratório</option>
-                <option value="3">Clínica de Terapias</option>
-            </select>
-            <label for="especialidade">Especialidade:</label>
-            <select name="especialidade" id="especialidade">
-                <option value="">Escolha a Especialidade</option>
-                <option value="1">Pediatra</option>
-                <option value="2">Oftalmologista</option>
-                <option value="3">Otorrinolaringologista</option>
-            </select>
-            <input type="submit" value="Enviar">
-            <input type="button" value="Cancelar">
-        </form>
+        <div class="inativo">
+            <form action="" class="form_profissional">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="registroConselho">Registro do Conselho:</label>
+                <input type="text" name="registroConselho" id="registroConselho">
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email">
+                <!-- Unidade e Especialidade -->
+                <label for="unidade">Unidade:</label>
+                <select name="unidade" id="unidade">
+                    <option value="">Escolha a Unidade</option>
+                    <option value="1">Pronto Atendimento</option>
+                    <option value="2">Laboratório</option>
+                    <option value="3">Clínica de Terapias</option>
+                </select>
+                <label for="especialidade">Especialidade:</label>
+                <select name="especialidade" id="especialidade">
+                    <option value="">Escolha a Especialidade</option>
+                    <option value="1">Pediatra</option>
+                    <option value="2">Oftalmologista</option>
+                    <option value="3">Otorrinolaringologista</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="button" value="Cancelar">
+            </form>
+        </div>
+        <div id="add">
+            <a class="botao_verde">Adicionar</a>
+        </div>
         <table>
             <thead>
                 <tr>
